@@ -12,7 +12,7 @@ We propose a novel graph representation learning method named the Hierarchical B
 |:---:|
 | Dendrogram - Binary Logarithm over the Sum of Euclidean Distances |
 
-| <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixster_l%3D0-min.png"  alt="drawing"  width="150"  />   | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixster_l%3D2-min.png"  alt="drawing"  width="150" />  | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixster_l%3D4-min.png"  alt="drawing"  width="150"  />  | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixster_l%3D7-min.png"  alt="drawing"  width="150"  />  | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixsterscatter_re.png"  alt="drawing"  width="250"  />  |
+| <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixster_l=0-min.png?raw=true"  alt="drawing"  width="150"  />   | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixster_l=2-min.png?raw=true"  alt="drawing"  width="150" />  | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixster_l=4-min.png?raw=true"  alt="drawing"  width="150"  />  | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixster_l=7-min.png?raw=true"  alt="drawing"  width="150"  />  |  <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/flixsterscatter_re.png"  alt="drawing"  width="250"  />  |
 |:---:|:---:|:---:|:---:|:---:|
 | L=1 | L=3| L=5 | L=8 | 2-D Embedding Space |
 
@@ -22,7 +22,7 @@ We propose a novel graph representation learning method named the Hierarchical B
 |:---:|
 | Dendrogram - Binary Logarithm over the Sum of Euclidean Distances |
 
-| <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/github_l%3D0.png"  alt="drawing"  width="220"  />   | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/github_l%3D2.png"  alt="drawing"  width="220"  />  | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/github_l%3D5.png"  alt="drawing"  width="220"  />  |  <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/githubscatter_re.png"  alt="drawing"  width="250" />  |
+| <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/github_l=0.png?raw=true"  alt="drawing"  width="320"  />   | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/github_l=2.png?raw=true"  alt="drawing"  width="320"  />  | <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/github_l=5.png?raw=true"  alt="drawing"  width="320"  />  |   <img src="https://github.com/Nicknakis/HBDM/blob/gh-pages/docs/assets/githubscatter_re.png"  alt="drawing"  width="250" />  |
 |:---:|:---:|:---:|:---:|
 | L=1 | L=3| L=6 | 2-D Embedding Space |
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 Our Pytorch implementation heavily relies on the [pytorch_sparse](https://github.com/rusty1s/pytorch_sparse) library. Installation guidelines can be found at the corresponding [Github repository](https://github.com/rusty1s/pytorch_sparse).
 
 ### Learning hierarchical and multi-scale graph representations with HBDM
-python main.py
+RUN: python main.py
 
 optional arguments:
 
