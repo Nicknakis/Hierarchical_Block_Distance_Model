@@ -57,6 +57,5 @@ optional arguments:
 The code has been primarily constructed and optimized for running in a GPU-enabled environment.
 
 ### References
-### References
 A Hierarchical Block Distance Model for Ultra Low-Dimensional Graph Representations, Under Double-Blind Review.
 
